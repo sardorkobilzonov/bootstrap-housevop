@@ -1,0 +1,90 @@
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../images/houses.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+nav h1 {
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  line-height: 16px;
+}
+nav ul a {
+  font-size: 18px;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .header__main-h2 {
+  max-width: 556px;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0em;
+  color: #d4c17f;
+}
+
+.nav__menu {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  header {
+    background-position: left;
+  }
+  header .header__main {
+    max-width: 804px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  header .header__main h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 900px) {
+  nav ul {
+    display: none;
+  }
+  nav .nav__menu {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+@media (max-width: 448px) {
+  nav h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 556px) {
+  header {
+    background-position: right;
+  }
+  header .header__main__desc h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <title>Learn Bootstrap</title>
+  </head>
+  <body>
+    <style>
+      .text-center {
+        color: #000;
+        font-size: 18px;
+      }
+    </style>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-6">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/balloons.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/monument.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="./images/town.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header text-center">
+              <h1>Learn Bootstrap</h1>
+            </div>
+
+            <div class="card-body text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              magni, fugit, optio sit harum amet doloribus repellat maxime, vel
+              quam voluptates expedita dolorem cupiditate tempora aliquam
+              nesciunt ea ex illum cum atque suscipit. Reprehenderit aliquid
+              eius quae, delectus est commodi?
+            </div>
+            <div class="card-footer text-center">
+              <button type="button" class="btn btn-success text-center">
+                Learn
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-info">
+          <a href="./index2.html">HouseVOP</a>
+        </button>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6 offset-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h1>Register</h1>
+            </div>
+            <div class="card-body">
+              <form>
+                <input
+                  type="text"
+                  placeholder="Full name"
+                  class="form-control my-2"
+                />
+                <input
+                  type="text"
+                  placeholder="User name"
+                  class="form-control my-2"
+                />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="form-control my-2"
+                />
+              </form>
+            </div>
+            <div class="card-footer text-center">
+              <button type="submit" class="btn btn-info">save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="link">
+      <button class="link__btn">
+        <a href="./index2.html">HouseVOP</a>
+      </button>
+    </div> -->
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
